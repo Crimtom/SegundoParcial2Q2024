@@ -24,7 +24,16 @@
         <br />
         <asp:Label ID="Lpartido" runat="server" Text="Partido:"></asp:Label>
         <asp:TextBox ID="TBpartido" runat="server" Width="221px"></asp:TextBox>
-
+        <br />
+        <br />
+        <br />
+        <asp:Label ID="Ledad" runat="server" Text="Edad:"></asp:Label>
+        <asp:TextBox ID="TBedad" runat="server" Width="221px"></asp:TextBox>
+        <br />
+        <br />
+        <br />
+        <asp:Label ID="Lplataforma" runat="server" Text="Plataforma:"></asp:Label> 
+        <asp:TextBox ID="TBplataforma" runat="server" Width="221px"></asp:TextBox>
 
     </div>
 </asp:Content>
