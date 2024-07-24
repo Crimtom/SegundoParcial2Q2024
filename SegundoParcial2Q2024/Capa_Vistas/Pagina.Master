@@ -13,7 +13,7 @@
 <body>
     <form id="form1" runat="server">
         <div class="vertical-menu">
-            <a href="Inicio.aspx" class="active">Inicio</a>
+            <a href="Inicio.aspx">Inicio</a>
             <a href="Votaciones.aspx">Votaciones</a>
             <a href="Resultados.aspx">Resultados</a>
             <a href="Ingresar_Candidatos.aspx">Ingresar Candidato</a>

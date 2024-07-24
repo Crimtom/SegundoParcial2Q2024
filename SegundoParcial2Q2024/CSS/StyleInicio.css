@@ -1,0 +1,25 @@
+﻿body {
+    box-sizing: border-box;
+    background-color: cadetblue;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman';
+    background-color: #04AA6D;
+    color: white;
+}
+
+nav {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial;
+    background-color: dodgerblue;
+}
+
+section image {
+        align-self: center;
+        background-color: aquamarine;
+        align-items: center;
+        border-image-width: 100%;
+}

@@ -67,10 +67,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Capa_Vistas\Clear Sky.png" />
+    <Content Include="Capa_Vistas\democracia.png" />
     <Content Include="Capa_Vistas\Ingresar_Candidatos.aspx" />
     <Content Include="Capa_Vistas\Inicio.aspx" />
     <Content Include="Capa_Vistas\Resultados.aspx" />
     <Content Include="Capa_Vistas\Votaciones.aspx" />
+    <Content Include="CSS\StyleInicio.css" />
     <Content Include="CSS\StyleMaster.css" />
     <Content Include="SQL Querry\SQLQuery_Del_Segundo_Examen.sql" />
     <Content Include="Web.config" />
