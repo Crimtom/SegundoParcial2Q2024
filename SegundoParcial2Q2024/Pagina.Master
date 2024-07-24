@@ -13,11 +13,12 @@
 <body>
     <form id="form1" runat="server">
         <div class="vertical-menu">
-            <a href="#" class="active">Inicio</a>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-            <a href="#">Link 4</a>
+            &nbsp;<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <a href="Capa_Vistas/Inicio.aspx" class="active">Inicio</a>
+            <a href="Capa_Vistas/Votaciones.aspx">Votaciones</a>
+            <a href="Capa_Vistas/Resultados.aspx">Resultados</a>
+            <a href="Capa_Vistas/Ingresar_Candidatos.aspx">Ingresar Candidato</a>
         </div>
     </form>
 </body>

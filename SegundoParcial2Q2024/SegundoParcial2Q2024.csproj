@@ -67,7 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Capa_Vistas\Ingresar_Candidatos.aspx" />
     <Content Include="Capa_Vistas\Inicio.aspx" />
+    <Content Include="Capa_Vistas\Resultados.aspx" />
+    <Content Include="Capa_Vistas\Votaciones.aspx" />
     <Content Include="CSS\StyleMaster.css" />
     <Content Include="SQL Querry\SQLQuery_Del_Segundo_Examen.sql" />
     <Content Include="Web.config" />
@@ -76,12 +79,33 @@
     <Compile Include="Capa_Datos\BDConexion.cs" />
     <Compile Include="Capa_Datos\CLScandidato.cs" />
     <Compile Include="Capa_Datos\CLSvotante.cs" />
+    <Compile Include="Capa_Vistas\Ingresar_Candidatos.aspx.cs">
+      <DependentUpon>Ingresar_Candidatos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Capa_Vistas\Ingresar_Candidatos.aspx.designer.cs">
+      <DependentUpon>Ingresar_Candidatos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Capa_Vistas\Inicio.aspx.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Capa_Vistas\Inicio.aspx.designer.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Capa_Vistas\Resultados.aspx.cs">
+      <DependentUpon>Resultados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Capa_Vistas\Resultados.aspx.designer.cs">
+      <DependentUpon>Resultados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Capa_Vistas\Votaciones.aspx.cs">
+      <DependentUpon>Votaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Capa_Vistas\Votaciones.aspx.designer.cs">
+      <DependentUpon>Votaciones.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pagina.Master.cs">
       <DependentUpon>Pagina.Master</DependentUpon>
