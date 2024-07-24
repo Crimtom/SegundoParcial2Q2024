@@ -8,7 +8,7 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <link href=".../CSS/StyleMaster.css" rel="stylesheet" />
+    <link href="../CSS/StyleMaster.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -17,9 +17,9 @@
             <a href="Votaciones.aspx">Votaciones</a>
             <a href="Resultados.aspx">Resultados</a>
             <a href="Ingresar_Candidatos.aspx">Ingresar Candidato</a>
-            &nbsp;<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
         </div>
     </form>
+    &nbsp;<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
 </body>
 </html>
