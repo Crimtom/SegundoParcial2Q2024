@@ -107,18 +107,18 @@
     <Compile Include="Capa_Vistas\Votaciones.aspx.designer.cs">
       <DependentUpon>Votaciones.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pagina.Master.cs">
+    <Compile Include="Capa_Vistas\Pagina.Master.cs">
       <DependentUpon>Pagina.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pagina.Master.designer.cs">
+    <Compile Include="Capa_Vistas\Pagina.Master.designer.cs">
       <DependentUpon>Pagina.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="Pagina.Master" />
+    <Content Include="Capa_Vistas\Pagina.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

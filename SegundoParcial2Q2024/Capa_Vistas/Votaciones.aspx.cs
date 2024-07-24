@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SegundoParcial2Q2024.Capa_Datos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;

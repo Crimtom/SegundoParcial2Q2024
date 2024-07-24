@@ -1,16 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Inicio.aspx.cs" Inherits="SegundoParcial2Q2024.Capa_Vistas.Inicio" %>
+﻿<%@ Page Language="C#" MasterPageFile="Pagina.Master" AutoEventWireup="true" CodeBehind="Inicio.aspx.cs" Inherits="SegundoParcial2Q2024.Capa_Vistas.Inicio" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
-</body>
-</html>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <h1>PAGINA DE INICIO </h1>
+    <asp:Label ID="lmensaje" runat="server" Text="Label"></asp:Label>
+</asp:Content>
