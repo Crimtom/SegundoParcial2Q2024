@@ -1,25 +1,25 @@
 ﻿body {
     box-sizing: border-box;
-    background-color: cadetblue;
+    background-color: #00264d;
 }
 
 h1 {
     text-align: center;
     font-family: 'Times New Roman';
-    background-color: #04AA6D;
+    background-color: #0066cc;
     color: white;
 }
 
-nav {
-    box-sizing: border-box;
+h2 {
+    color: white;
     text-align: center;
-    font-family: Arial;
-    background-color: dodgerblue;
+    font-family: 'Times New Roman';
 }
 
-section image {
-        align-self: center;
-        background-color: aquamarine;
-        align-items: center;
-        border-image-width: 100%;
+
+section {
+    align-self: center;
+    background-color: #0066cc;
+    align-items: center;
+    border-image-width: 100%;
 }
